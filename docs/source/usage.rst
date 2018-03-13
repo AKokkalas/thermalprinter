@@ -30,6 +30,9 @@ An example is better than thousands words::
         # Chinese (almost all alphabets exist)
         printer.out('现代汉语通用字表', chinese=True,
                     chinese_format=Chinese.UTF_8)
+                    
+        # Greek
+        printer.out('Στην υγειά μας!', codepage=CodePage.CP737)
 
         # Accents
         printer.out('Voilà !', justify='C', strike=True,
